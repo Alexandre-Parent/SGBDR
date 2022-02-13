@@ -2,6 +2,9 @@
 require "vendor/autoload.php";
 //Connection à la bdd
 
+use App\Table;
+use App\URL;
+
 $host = "163.172.130.142";
 $port = "3310";
 $databaseName = "sakila";
